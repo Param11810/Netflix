@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+
+
+.main {
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-size: max(2000px, 100vw);
+    background-repeat: no-repeat;
+    height: 110vh;
+    background-size: cover;
+    position: relative;
+    opacity: 0.3;
+}
+
+.main .box {
+    background-color: black;
+    opacity: 20;
+   
+    height: 95vh;
+    width: 10;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 30;
+}
+
+nav button {
+    position: relative;
+    z-index: 30;
+}
+
+.hero {
+
+    font-family: 'Martel Sans', sans-serif;
+     font-weight: 900;
+ font-size: 48px;  
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap:23px;
+    padding:0px;
+    opacity:100;
+
+}
+span1{
+    font-weight: bolder;
+    font-size: 48px;
+}
+span2{
+    font-weight: 350;
+    font-size: 20px;
+}
+span{
+    font-weight: 350;
+    font-size: 15px;
+}
+ .seperation{
+    height: 11px;
+    background-color: rgba(63, 60, 60, 0.458);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    border-radius: 7px;
+    color:white;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    cursor: pointer;
+} 
+.btn-red{
+    background-color: red;
+    font-weight: 400;
+  
+    color: whitesmoke;
+    background-color: red;
+    color:white;
+    padding:3px 24px;
+    font-size: 20px;
+    border-radius: 7px;
+
+
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+.main input{
+    padding:7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 7px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color:white;
+
+}
+.btn-red-sm{
+    background-color: red;
+    color: whitesmoke;
+}
+.first{
+   display:flex;
+   justify-content: center;
+   max-width: 70vw;
+   margin:auto; 
+   color:whitesmoke;
+   justify-content: center;
+   align-items: center;
+}
+.sec-img{
+    position: relative;
+}
+@media screen and (max-width:1300px){
+   
+    .first{
+        flex-wrap: wrap;
+    }
+    
+}
+.sec-img img{
+
+    width: 555px;
+    position: relative;
+    z-index:1110;
+    translate: 0;
+}
+.sec-img video{
+    position:absolute;
+    top: 90px;
+    right:0;
+ 
+
+}
+.first{
+    display: flex;
+    /* flex-direction: column; */
+}
+.pp{
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+}
+.PP{
+    font-size: 24px;
+    
+}
+.ff{
+    font-size: 58px;
+    font-weight: bolder;
+}
+.FF{
+    font-size: 24px;
+}
+.hh{
+    font-size: 58px;
+    font-weight: bolder;
+}
+.HH{
+    font-size: 24px;
+}
+.faqbox:hover{
+    transition:all 1s  ease-out;
+    background-color: #414141;
+   
+}
+.faqbox svg{
+    filter:invert(1);
+}
+.faqbox{
+    font-size: 24px;
+    color:aliceblue;
+    display: flex;
+    background-color:#2d2d2d;
+    padding:24px ;
+    justify-content: space-between;
+    max-width:60vw;
+    margin: auto;
+    cursor: pointer;
+}
+h2{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+footer{
+    color:white;
+    max-width:60vw;
+    margin: auto;
+    padding: 34px;
+}
+.footer a{
+    font-size:14px;
+    color:white;
+}
+.question{
+    padding:34px 0;
+
+}
+.footer{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    color:white;
+}
+@media screen and (max-width:1300px){
+   
+    .footer{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap:23px;
+}
